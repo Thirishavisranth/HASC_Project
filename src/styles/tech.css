@@ -1,0 +1,41 @@
+.tech{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 10vh;
+    padding-top: -10%;
+    
+}
+
+.tech>input{
+    padding: 10px;
+    margin: 5px 0px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+
+.tech>label{
+    font-size: 12px;
+    color: gray;
+}
+
+.tech>span{
+    font-size: 12px;
+    padding: 2px;
+    color: red;
+    display: none;
+}
+
+.tech>input:invalid[focused="true"]{
+    border: 1px solid red;
+}
+
+.tech>input:invalid[focused="true"] ~ span{
+    display: block;
+}
+.sub{
+    text-align: center;
+    padding-bottom: 3%;
+    
+}

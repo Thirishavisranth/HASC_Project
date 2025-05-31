@@ -1,0 +1,117 @@
+.hell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #000d6b; 
+  /* background: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url('https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500'); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  margin-top: 2%;
+}
+
+  
+.uth-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 700px;
+    margin: 80px auto 0;
+    padding: 3rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0.5rem;
+    box-shadow: 0 2px 4px rgba(29, 26, 26, 0.4); 
+    background-color: rgb(255, 255, 255);
+    /* color: white; */
+}
+.login-form, .register-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px; 
+    margin: 0 auto; 
+    padding: 2rem;
+    border: 1px solid rgb(234, 225, 225);
+    border-radius: 10px;
+    margin: 0.5rem;
+    background-color: rgb(255, 255, 255);
+    
+  }
+  
+  
+  @media screen and (min-width: 600px) {
+    .uth-form{
+      padding: 4rem;
+      border: 0px solid rgb(200, 200, 179);
+      background-color:white;
+      border-radius: 10px;
+      margin: 0.5rem;
+      
+    }
+  }
+  
+  .login-form>label{
+    text-align: left;
+    padding: 0.25rem 0;
+    color: black;
+  }
+  
+  .login-form>input{
+    margin: 0.5rem 0; 
+    padding: 1rem;
+    padding-right: 5rem;
+    border: none;
+    /* border-radius: 10px; */
+   
+    border: 1px solid rgb(56, 48, 48);
+  }
+  
+  .login-form>button{
+    border: none;
+    border: 1px solid rgb(234, 225, 225);
+    /* //background-color: rgb(207, 86, 26); */
+    background-color: #000d6b; 
+    color: rgb(255, 255, 255);
+    margin: 0.5rem;
+    padding: 13px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+  }
+  .dont{
+    color: rgb(48, 32, 32);
+  }
+  .l-btn{
+    background: none;
+    color: rgb(17, 11, 11);
+    text-decoration: underline;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .login-btn{
+    background-color:red;
+    border: 1px solid rgb(234, 225, 225);
+    border-radius: 10px;
+    padding: 13px;
+    color: white;
+    text-decoration: none;
+  }
+  .popup-message {
+    color: red;
+    margin-top: 10px;
+  }
